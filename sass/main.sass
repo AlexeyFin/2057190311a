@@ -1,0 +1,229 @@
+@import "colors"
+
+main
+  font-family: Arial, sans-serif
+  color: $dark
+  .main_container
+    min-height: 800px
+    padding: 0
+    section
+      padding: 1rem
+    #profile_top
+      .top_wrap
+        display: flex
+        flex-wrap: wrap
+        .photo_wrap
+          width: 35%
+          height: 0
+          img
+            width: 100%
+            background-color: white
+            border-radius: 0 0 50% 0
+        .name_wrap
+          width: 65%
+
+
+          padding: 1rem
+          h3
+            color: $dark
+            font-weight: 700
+          p
+            color: $grey
+        .about_wrap
+          width: 100%
+
+
+          z-index: -1
+          background-color: $message_yellow
+          padding: 1rem
+          display: flex
+          justify-content: flex-end
+          &_content
+            width: 65%
+            padding-left: 1rem
+            display: flex
+            align-items: center
+            color: #333333
+
+    #services
+      margin-top: 2rem
+      .services_wrap
+        .services_body
+          border-top: 1px solid $grey
+          border-bottom: 1px solid $grey
+          padding: .5rem 0
+          &_item
+            margin: .5rem 0
+    #comments
+      margin-top: 2rem
+      .comment_nav
+        &_item
+          font-size: 1rem
+          color: blue
+          text-decoration: underline
+          cursor: pointer
+          transition: all .2s ease-in-out
+        .active_item
+          color: $dark
+          font-size: 1.5rem
+          text-decoration: none
+        .feedback
+          &_wrap
+            i
+              color: #73b4d5
+      .comment_body
+        .comment-item
+          &_name
+            font-weight: 700
+          &_date
+            font-size: .85rem
+            color: $grey
+          &_text
+            padding: 1.25rem
+            border: 1px solid $grey
+            background-color: #f2f2f2
+            position: relative
+
+            &::before
+              content: ''
+              border: 20px solid transparent
+              border-bottom: 0px solid transparent
+              border-right: 0px solid transparent
+              border-left: 12px solid $grey
+              position: absolute
+              left: 40px
+              margin-left: -12px
+              top: -20px
+              width: 0
+            &::after
+              content: ''
+              border: 20px solid transparent
+              border-bottom: 0px solid transparent
+              border-right: 0px solid transparent
+              border-left: 12px solid #f2f2f2
+              position: absolute
+              left: 40px
+              margin-left: -11px
+              top: -17px
+              width: 0
+    #write_form
+      margin-top: 2rem
+      background-color: #f2f2f2
+      form
+        .form-submit
+          color: #333333
+          background-color: #fdd639
+          font-weight: 700
+          font-size: 1.15rem
+          padding: 1rem
+          border-radius: 2rem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//main
+//  padding: 20px
+//  border: 1px solid black
+//  font-family: Arial, sans-serif
+//  color: $dark
+//  section#top
+//    .container
+//      .photo_wrap
+//        width: 100%
+//        img
+//          width: 100%
+//      .main_info_wrap
+//        display: flex
+//        flex-direction: column
+//        align-items: flex-start
+//        .name_wrap
+//          h1.name_header
+//            font-weight: 700
+//            color: $dark
+//          p.position
+//            color: $grey
+//        .main_message_wrap
+//          background-color: $message_yellow
+//          padding: 1rem 1rem 1rem 0
+//          border-radius: 0 .25rem .25rem 0
+//          p
+//            height: 100%
+//            width: 100%
+//            margin: 0
+//            position: relative
+//            color: $dark
+//            &::after
+//              content: ''
+//              display: block
+//              height: calc(100% + 2rem)
+//              background-color: $message_yellow
+//              width: 100%
+//              position: absolute
+//              top: -1rem
+//              left: -100px
+//              z-index: -1

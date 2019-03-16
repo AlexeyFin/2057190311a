@@ -1,0 +1,37 @@
+@media screen and (max-width: 656px) {
+  main .main_container #profile_top .top_wrap .photo_wrap {
+    min-height: 100%;
+    height: auto;
+  }
+  main .main_container #profile_top .top_wrap .name_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .main_container #profile_top .top_wrap .about_wrap {
+    margin-top: 1rem;
+  }
+  main .main_container #profile_top .top_wrap .about_wrap_content {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 505px) {
+  main .main_container section {
+    margin-top: 1rem !important;
+  }
+  main .main_container #profile_top .top_wrap .photo_wrap {
+    min-height: 100%;
+    height: auto;
+  }
+  main .main_container #profile_top .top_wrap .name_wrap h3 {
+    font-size: 1.5rem;
+  }
+}
